@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Alfa+Slab+One|Kanit|Permanent+Marker|Russo+One" rel="stylesheet">
+
+    <title>weather</title>
+
+</head>
+
+
+<body>
+
+
+
+    <h1 class="display-4">FIND YOUR FORECAST</h1>
+    <p class="lead">Life is 10% what happens to you and 90% how you react to it.
+        <br>
+        -Charles R. Swindoll</p>
+
+
+
+    <div class="container" id="widget">
+
+            <a class="weatherwidget-io" href="https://forecast7.com/en/33d75n84d39/atlanta/?unit=us" data-label_1="Atlanta" data-label_2="Weather" data-font="Play" data-icons="Climacons Animated" data-days="5" data-textcolor="white" data-highcolor="#f44336" data-lowcolor="#2196f3" data-suncolor="#ffd54f" data-mooncolor="#b0bec5" data-cloudcolor="#ffffff" data-raincolor="#546e7a" >Atlanta Weather</a>
+            <script>
+            !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+            </script>
+            
+    </div>
+
+
+    <div class="container" id="outputBackground">
+        <div class="row justify-content-md-center" class="center-div" id="weatherVal">
+            <div id="weather-value"> </div>
+        </div>
+        <div class="row justify-content-md-center" id="conditionVal">
+
+            <div id="condition"> </div> <img src="" id="weatherPic">
+        </div>
+        <div class="row justify-content-md-center" id="location">
+            <div id="locationCity"></div>
+            <div id="locationRegion"></div>
+        </div>
+
+        <div class="row justify-content-md-center" id="icon">
+            <div id="locationCountry"></div>
+        </div>
+
+
+        <!-- <div class="row" id="inputCity">
+            <input type="text" id="city" placeholder="Enter City & State  OR  City & Country">
+        </div>
+
+        <div class="row" id="weatherButton">
+            <button id="get-weather" class="waves-effect waves-light btn">Get Weather</button>
+        </div> -->
+    </div>
+
+
+    <div class="row justify-content-md-center" id="inputCity">
+        <input type="text" id="city" placeholder="Enter City & State  OR  City & Country">
+    </div>
+
+    <div class="row justify-content-md-center" id="weatherButton">
+        <button id="get-weather" class="waves-effect waves-light btn">Get Weather</button>
+    </div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

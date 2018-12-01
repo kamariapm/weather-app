@@ -1,0 +1,95 @@
+body{
+    /* background-image: linear-gradient(217deg, #efeeee, #e9ccb1 70.71%),
+    linear-gradient(127deg, #d3c4be, #e4dac2 70.71%),
+    linear-gradient(336deg, #ebcfc4, #999999  70.71%);  */
+
+    /* background-image: linear-gradient(217deg, #fcdbb0, #b293ac 70.71%),
+    linear-gradient(127deg, #a8609c, #70385f 70.71%),
+    linear-gradient(336deg, #ae7b88, #703e33  70.71%); */
+
+    /* background-image: linear-gradient(#efeeee, #70385f, #a8609c, #b293ac, #fcdbb0, #703e33,#006064); */
+
+
+    /* background-image: linear-gradient(217deg, #70385f, #a8609c 70.71%),
+    linear-gradient(180deg, #ae7b88, #b293ac 50%),
+    linear-gradient(336deg, #ebcfc4, #fcdbb0  70.71%);  */
+
+    background-image:linear-gradient(150deg, #00838f, #00b8d4,#a7ffeb 80.71%);
+
+    background-attachment: fixed;
+    color: #fbfffc;
+    font-family: 'Lato', sans-serif;
+/* font-family: 'Acme', sans-serif; */
+    text-align: center;
+}
+
+
+#widget{
+    margin-top: 5%;
+    margin-bottom: 8%;
+    border: solid whitesmoke 2px
+}
+
+.display-4{
+    font-size: 75px;
+    /* font-family: 'Kanit', sans-serif; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Alfa Slab One', cursive; */
+    font-family: 'Russo One', sans-serif;
+
+}
+
+.lead{
+    font-family: 'Acme', sans-serif;
+}
+
+ #city{
+     width: 500px;
+     height: 41px;
+     background: white;
+     border-radius: 25px;
+     text-align: center;
+     margin-top: 2%
+ }
+
+#get-weather{
+    border-radius: 25px;
+}
+
+#weatherPic{
+    width: 75px;
+    height:75px
+}
+
+#locationCity{
+    font-size: 20px
+}
+
+#locationRegion{
+    font-size: 20px
+}
+
+#locationCountry{
+    font-size: 18px
+
+}
+
+#weather-value{
+    color: black;
+    font-size: 55px   
+}
+
+/* #outputBackground{
+     border: solid bisque; 
+     box-shadow: 5px 5px 5px 5px #df9c91; 
+    color: #2e264c; 
+background: bisque; 
+ color: whitesmoke ;
+     background:linear-gradient( #ffab91, #ffccbc, #ff8a65); 
+} */
+
+#condition{
+    color: gray;
+    font-size: 45px
+}
+
